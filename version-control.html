@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Reproducible Research in Python &#8212; Reproducible Research in Python</title>
+    <title>Version Control Systems &#8212; Reproducible Research in Python</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -55,7 +55,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="The importance of making research code accessible" href="open-research.html" />
+    <link rel="prev" title="Jupyter Notebooks" href="jupyter.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en">
     
@@ -90,7 +90,7 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="bd-sidebar noprint" id="site-navigation">
     <div class="bd-sidebar__content">
         <div class="bd-sidebar__top"><div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="#">
+    <a class="navbar-brand text-wrap" href="index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
         
@@ -109,13 +109,13 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="index.html">
                     Reproducible Research in Python
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="open-research.html">
    The importance of making research code accessible
@@ -126,8 +126,8 @@ const thebe_selector_output = ".output, .cell_output"
    Jupyter Notebooks
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="version-control.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Version Control Systems
   </a>
  </li>
@@ -221,7 +221,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/ac812/reproducible-research-python/issues/new?title=Issue%20on%20page%20%2Findex.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/ac812/reproducible-research-python/issues/new?title=Issue%20on%20page%20%2Fversion-control.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -249,7 +249,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/index.md"
+        <a href="_sources/version-control.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -286,23 +286,84 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction-to-version-control-systems">
+   Introduction to Version Control Systems
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#centralised-version-control-systems">
+     Centralised Version Control Systems
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#distributed-version-control-systems">
+     Distributed Version Control Systems
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Reproducible Research in Python</h1>
+                <h1>Version Control Systems</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction-to-version-control-systems">
+   Introduction to Version Control Systems
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#centralised-version-control-systems">
+     Centralised Version Control Systems
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#distributed-version-control-systems">
+     Distributed Version Control Systems
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -310,11 +371,62 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="reproducible-research-in-python">
-<h1>Reproducible Research in Python<a class="headerlink" href="#reproducible-research-in-python" title="Permalink to this headline">#</a></h1>
-<enter description of course here> 
-<div class="toctree-wrapper compound">
+  <section class="tex2jax_ignore mathjax_ignore" id="version-control-systems">
+<h1>Version Control Systems<a class="headerlink" href="#version-control-systems" title="Permalink to this headline">#</a></h1>
+<section id="introduction-to-version-control-systems">
+<h2>Introduction to Version Control Systems<a class="headerlink" href="#introduction-to-version-control-systems" title="Permalink to this headline">#</a></h2>
+<p>Chances are that you have encountered been using a form of version control system before without realising. Consider
+the scenario below in &#64;fig-student-supervisor, where a PhD student sends their final manuscript draft to their supervisor.
+The supervisor sends back the document with comments and feedback to the student, renaming the document with a new
+version name. Before you know it, this iterative exchange has resulted into 22 versions of the file. Renaming and
+tracking the progression of the manuscript exemplifies a basic version control method.</p>
+<p><img alt="Different versions of document from a PhD student and a supervisor" src="_images/phdcomic.png" />{#fig-student-supervisor width=”60%”}</p>
+<p>A version control system, in essence, is a tool that keeps track of the changes and versions of a file. This facilitates
+collaboration amongst multiple individuals working on the same project concurrently. Version control systems allows
+users to compare changes between different versions of the file, revert changes, and track who, when and why
+modifications were made within the team.</p>
+<p>Version control systems are popular in the software development industry as it allows teams to have a common location or
+repository where all the source code/files in the project are kept and thus allowing team members to work on the same
+project concurrently in a collaborative way, tracking their contributions to the project. However, increasingly, researchers
+from different domains are using version control systems, in an effort to make their analysis transparent and accessible
+enabling reproducibility of their work.</p>
+<p>The main advantages of version control systems are:</p>
+<ul class="simple">
+<li><p>Versioning: Every time someone makes a change to a file, a version of that file is stored by the version control system. This removes the need to rename the files manually to keep track of the different versions.</p></li>
+<li><p>Collaboration: Version control systems allow more than one person to work on the same file at the same time. This collaborative feature fosters efficient teamwork, as contributors seamlessly integrate their modifications into a shared project.</p></li>
+<li><p>Backup: While not being their primary role, version control systems safeguards against data loss. By storing code on a server or in the cloud, these systems serve as an inadvertent backup solution, mitigating the risk of losing all work in the event of a computer breakdown.</p></li>
+</ul>
+<div class="tip admonition">
+<p class="admonition-title">New keyword: repository</p>
+<p>In version control systems, a <strong>repository</strong> is a data structure that stores files and directory structure in it, as well as
+the history of changes made to those files. This is similar to folders on your computer.</p>
 </div>
+<div class="container"> 
+  <iframe class="responsive-iframe" src="https://docs.google.com/presentation/d/1jjthPL_vuhgmm8R1QcmZXrpsA2OjbmAFhaMqjLxJ8qc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+<p>Version control systems are often categorised as either centralised version control systems or distributed version control systems.</p>
+<section id="centralised-version-control-systems">
+<h3>Centralised Version Control Systems<a class="headerlink" href="#centralised-version-control-systems" title="Permalink to this headline">#</a></h3>
+<p>In a centralised version control system, the project files are stored in a central place (server) which also keeps track
+of the files’ history (versions). This setup allows people to collaborate on the same project with users able to commit
+or make changes to a central server. Normally multiple users are not able to work on the same file concurrently in a
+centralised version control system. The user working on a file would normally “lock” a file for editing, restricting
+editing access to other users. Examples of centralised version control systems are CVS and Subversion (SVN). The main disadvantage
+of these systems are that if the server goes down, none of the users will be able to collaborate or get the latest versions
+of the files from the repository.</p>
+<p><img alt="Centralised Version Control System. Image by Michael Ernst." src="_images/centralised-vcs.png" />{#fig-cvs width=”60%”}</p>
+</section>
+<section id="distributed-version-control-systems">
+<h3>Distributed Version Control Systems<a class="headerlink" href="#distributed-version-control-systems" title="Permalink to this headline">#</a></h3>
+<p>In a distributed version control system each person in a team working on a project makes a copy or clones the repository
+on their own computer which also includes the full history of the different files inside the repository. Thus, if a
+server goes down, it would be able to be restored back from the copies of the repositories held by the different people
+in the team. Distributed version control systems are becoming increasingly more popular as they overcome some of the limitations
+imposed by centralised version control systems. In this course we will be learning about <strong>git</strong> which is an example of
+a distributed version control system.</p>
+<p><img alt="Distributed Version Control System. Image by Michael Ernst." src="_images/distributed-vcs.png" />{#fig-cvs width=”60%”}</p>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -344,12 +456,12 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='right-next' id="next-link" href="open-research.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">The importance of making research code accessible</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
+    <a class='left-prev' id="prev-link" href="jupyter.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Jupyter Notebooks</p>
+        </div>
     </a>
 </div>
             </footer>
