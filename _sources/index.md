@@ -1,4 +1,4 @@
-# Reproducible Research in Python
+# Course Overview
 
 <enter description of course here> 
 
