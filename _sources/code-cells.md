@@ -26,7 +26,7 @@ Explore writing Python code in code cells.  Write the code shown in {numref}`jup
 ```
 
 
-### Submitting/Sharing a Jupyter Notebook
+## Sharing 
 Once you have finished writing your Notebook, go to the location where you have your PyCharm Project and you should be 
 able to see your Notebook file/s (`.ipynb`) in that folder. You can send the .ipynb file to someone or upload it to a 
 drive for example. If you have created folders with data in your project that are used in the `.ipynb` file, than make 

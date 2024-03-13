@@ -388,8 +388,8 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-jupyter-notebooks-in-colab">2.1.1. Creating Jupyter Notebooks in Colab</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-jupyter-notebooks">2.1.2. Running Jupyter Notebooks</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebook-cells">2.1.3. Jupyter Notebook Cells</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebook-cells">2.1.2. Jupyter Notebook Cells</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-jupyter-notebooks">2.1.3. Running Jupyter Notebooks</a></li>
 </ul>
             </nav>
         </div>
@@ -401,7 +401,7 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="introducing-colaboratory">
+  <section id="introducing-colaboratory">
 <h1><span class="section-number">2.1. </span>Introducing Colaboratory<a class="headerlink" href="#introducing-colaboratory" title="Link to this heading">#</a></h1>
 <p><strong>Colaboratory</strong> or <strong>Colab</strong> is a free cloud-based platform provided by Google that allows user to write and execute
 Python
@@ -428,38 +428,39 @@ Integrated Development Environment (IDE) to code.</p>
 <ol class="arabic simple">
 <li><p>Log in to your Google account.</p></li>
 <li><p>Select or create the folder where you want to create your Colab document.</p></li>
-<li><p>Select <strong>New|More</strong> and choose <strong>Colab</strong>.  If <strong>Colab</strong> is not on your list, this means that the Colab app is not installed in your Google account.  To install Colab, select <strong>New|More|Connect more apps</strong>.  In the Google Marketplace window, search for <strong>Colab</strong>, select the Colaboratory app as shown below, and follow the installation instructions.
+<li><p>Select <strong>New|More</strong> and choose <strong>Colab</strong>. If <strong>Colab</strong> is not on your list, this means that the Colab app is not
+installed in your Google account. To install Colab, select <strong>New|More|Connect more apps</strong>. In the Google Marketplace
+window, search for <strong>Colab</strong>, select the Colaboratory app as shown below, and follow the installation instructions.
 <img alt="colab-app" src="_images/colab-app.png" /></p></li>
-<li><p>Once installed, to create a new Colab document, in your Google Drive select <strong>New|More|Google Colaboratory</strong>.  This creates a new Colab document as shown below:
+<li><p>Once installed, to create a new Colab document, in your Google Drive select <strong>New|More|Google Colaboratory</strong>. This
+creates a new Colab document as shown below:
 <img alt="new-colab" src="_images/new-colab.png" /></p></li>
-<li><p>The Colab document is authomatically renamed as <code class="docutils literal notranslate"><span class="pre">Untitled</span></code>.  Note also that it has the <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> extension.  <strong>Jupyter Notebook files have a <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> file extension.</strong>  To rename the document, click on the file name at the top-left hand side on the document and rename it to <code class="docutils literal notranslate"><span class="pre">notebook1.ipynb</span></code>. <img alt="colab-rename" src="_images/colab-rename.png" /></p></li>
+<li><p>The Colab document is automatically renamed as <code class="docutils literal notranslate"><span class="pre">Untitled</span></code>. Note also that it has the <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> extension.  <strong>Jupyter
+Notebook files have a <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> file extension.</strong>  To rename the document, click on the file name at the top-left hand
+side on the document and rename it to <code class="docutils literal notranslate"><span class="pre">notebook1.ipynb</span></code>. <img alt="colab-rename" src="_images/colab-rename.png" /></p></li>
+</ol>
+<p>Well done, you have just created your first Jupyter Notebook!  The Notebook is currently empty, so let’s get started
+with filling this up.</p>
+</section>
+<section id="jupyter-notebook-cells">
+<h2><span class="section-number">2.1.2. </span>Jupyter Notebook Cells<a class="headerlink" href="#jupyter-notebook-cells" title="Link to this heading">#</a></h2>
+<p>A Jupyter notebook is composed of a list of cells. You can add as many cells as you need in your Notebook. In Colab,
+cells can be of two types:</p>
+<ol class="arabic simple">
+<li><p>Code</p></li>
+<li><p>Text</p></li>
 </ol>
 </section>
 <section id="running-jupyter-notebooks">
-<h2><span class="section-number">2.1.2. </span>Running Jupyter Notebooks<a class="headerlink" href="#running-jupyter-notebooks" title="Link to this heading">#</a></h2>
-<ol class="arabic simple">
-<li><p>In the code cell displayed enter the following code <code class="docutils literal notranslate"><span class="pre">print(&quot;Hello</span> <span class="pre">Jupyter!&quot;)</span></code> as follows:
-<img alt="hello-jupyter1" src="_images/hello-jupyter1.png" /></p></li>
-<li><p>After clicking the <strong>Run All</strong> <img alt="" src="_images/run-all.png" /> button you would get the output displayed underneath the code
-cell as follows:
-<img alt="hello-jupyter" src="_images/hello-jupyter.png" /></p></li>
-<li><p>To display your Notebook in a browser, click on the <strong>Open Notebook in Browser</strong> <img alt="" src="_images/view-browser.png" /> button
-in the notebook toolbar.
-This will open the Notebook in your browser and it will be displayed with the classic Jupyter Notebook interface:
-<img alt="hello-jupyter-browser" src="_images/hello-jupyter-browser.png" /></p></li>
+<h2><span class="section-number">2.1.3. </span>Running Jupyter Notebooks<a class="headerlink" href="#running-jupyter-notebooks" title="Link to this heading">#</a></h2>
+<p>When creating a new Colab document, the notebook is initialised with an empty code cell.</p>
+<ol class="arabic">
+<li><p>In the code cell displayed, enter the following <code class="docutils literal notranslate"><span class="pre">print(&quot;Hello</span> <span class="pre">Jupyter!&quot;)</span></code></p></li>
+<li><p>Click on the Play icon <a class="reference internal" href="_images/colab-play.png"><img alt="colab-play" src="_images/colab-play.png" style="width: 20px;" /></a> in the left gutter of the cell
+to get the output of the code displayed underneath the code cell. The output should be as follows:</p>
+<a class="reference internal image-reference" href="_images/colab-hello-jupyter.png"><img alt="colab-hello-jupyter" src="_images/colab-hello-jupyter.png" style="width: 40%;" /></a>
+</li>
 </ol>
-</section>
-<section id="jupyter-notebook-cells">
-<h2><span class="section-number">2.1.3. </span>Jupyter Notebook Cells<a class="headerlink" href="#jupyter-notebook-cells" title="Link to this heading">#</a></h2>
-<p>To add content on the Jupyter Notebook, we need to add cells to it. You can add as many cells as you need in your
-Notebook.
-Cells can be of three types:</p>
-<ol class="arabic simple">
-<li><p>Code</p></li>
-<li><p>Markdown</p></li>
-<li><p>Raw NBConvert</p></li>
-</ol>
-<p>In this course we are going to look at the two popular ones, which is Code and Markdown.</p>
 </section>
 </section>
 
@@ -528,8 +529,8 @@ Cells can be of three types:</p>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-jupyter-notebooks-in-colab">2.1.1. Creating Jupyter Notebooks in Colab</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-jupyter-notebooks">2.1.2. Running Jupyter Notebooks</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebook-cells">2.1.3. Jupyter Notebook Cells</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebook-cells">2.1.2. Jupyter Notebook Cells</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-jupyter-notebooks">2.1.3. Running Jupyter Notebooks</a></li>
 </ul>
   </nav></div>
 

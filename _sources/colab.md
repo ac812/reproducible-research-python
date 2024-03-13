@@ -26,32 +26,39 @@ To create a Jupyter Notebook in Colab:
 
 1. Log in to your Google account.
 2. Select or create the folder where you want to create your Colab document.
-3. Select **New|More** and choose **Colab**.  If **Colab** is not on your list, this means that the Colab app is not installed in your Google account.  To install Colab, select **New|More|Connect more apps**.  In the Google Marketplace window, search for **Colab**, select the Colaboratory app as shown below, and follow the installation instructions.
+3. Select **New|More** and choose **Colab**. If **Colab** is not on your list, this means that the Colab app is not
+   installed in your Google account. To install Colab, select **New|More|Connect more apps**. In the Google Marketplace
+   window, search for **Colab**, select the Colaboratory app as shown below, and follow the installation instructions.
    ![colab-app](images/colab-app.png)
-4. Once installed, to create a new Colab document, in your Google Drive select **New|More|Google Colaboratory**.  This creates a new Colab document as shown below:
+4. Once installed, to create a new Colab document, in your Google Drive select **New|More|Google Colaboratory**. This
+   creates a new Colab document as shown below:
    ![new-colab](images/new-colab.png)
-5. The Colab document is authomatically renamed as `Untitled`.  Note also that it has the `.ipynb` extension.  **Jupyter Notebook files have a `.ipynb` file extension.**  To rename the document, click on the file name at the top-left hand side on the document and rename it to `notebook1.ipynb`. ![colab-rename](images/colab-rename.png)
+5. The Colab document is automatically renamed as `Untitled`. Note also that it has the `.ipynb` extension.  **Jupyter
+   Notebook files have a `.ipynb` file extension.**  To rename the document, click on the file name at the top-left hand
+   side on the document and rename it to `notebook1.ipynb`. ![colab-rename](images/colab-rename.png)
 
-## Running Jupyter Notebooks
-
-1. In the code cell displayed enter the following code `print("Hello Jupyter!")` as follows:
-   ![hello-jupyter1](images/hello-jupyter1.png)
-2. After clicking the **Run All** ![](images/run-all.png) button you would get the output displayed underneath the code
-   cell as follows:
-   ![hello-jupyter](images/hello-jupyter.png)
-3. To display your Notebook in a browser, click on the **Open Notebook in Browser** ![](images/view-browser.png) button
-   in the notebook toolbar.
-   This will open the Notebook in your browser and it will be displayed with the classic Jupyter Notebook interface:
-   ![hello-jupyter-browser](images/hello-jupyter-browser.png)
+Well done, you have just created your first Jupyter Notebook!  The Notebook is currently empty, so let's get started
+with filling this up.
 
 ## Jupyter Notebook Cells
 
-To add content on the Jupyter Notebook, we need to add cells to it. You can add as many cells as you need in your
-Notebook.
-Cells can be of three types:
+A Jupyter notebook is composed of a list of cells. You can add as many cells as you need in your Notebook. In Colab,
+cells can be of two types:
 
 1. Code
-2. Markdown
-3. Raw NBConvert
+2. Text
 
-In this course we are going to look at the two popular ones, which is Code and Markdown.
+## Running Jupyter Notebooks
+
+When creating a new Colab document, the notebook is initialised with an empty code cell.
+
+1. In the code cell displayed, enter the following `print("Hello Jupyter!")`
+2. Click on the Play icon <img src="images/colab-play.png" alt="colab-play" width="20"> in the left gutter of the cell 
+to get the output of the code displayed underneath the code cell. The output should be as follows: 
+
+   <img src="images/colab-hello-jupyter.png" alt="colab-hello-jupyter" width="40%">
+
+
+
+
+
