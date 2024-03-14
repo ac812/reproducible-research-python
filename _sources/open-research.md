@@ -12,5 +12,5 @@ shaping research outcomes. While research papers document results, the absence o
 findings poses a significant barrier to the reproducibility of experiments. In an era where openness and collaboration 
 are championed, this discrepancy in sharing the tools that drive research threatens the very foundation of scientific enquiry.
 
-In this course we will look at two solutions to tackle the reproduciblity crisis: literate programming and version control.
+In this course we will look at two solutions to tackle the reproducibility crisis: literate programming and version control.
 

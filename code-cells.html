@@ -64,7 +64,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="2.5. Introducing PyCharm" href="pycharm.html" />
-    <link rel="prev" title="2.2. Markdown Cells" href="markdown.html" />
+    <link rel="prev" title="2.2. Text Cells" href="markdown.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -181,10 +181,10 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Reproducible Research in Python</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="open-research.html">1. The importance of making research code accessible</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open-research.html">1. Reproducibility Crisis</a></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="jupyter.html">2. Jupyter Notebooks</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="colab.html">2.1. Introducing Colaboratory</a></li>
-<li class="toctree-l2"><a class="reference internal" href="markdown.html">2.2. Markdown Cells</a></li>
+<li class="toctree-l2"><a class="reference internal" href="markdown.html">2.2. Text Cells</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">2.3. Code Cells</a></li>
 
 <li class="toctree-l2"><a class="reference internal" href="pycharm.html">2.5. Introducing PyCharm</a></li>
@@ -403,47 +403,43 @@ document.write(`
                   
   <section id="code-cells">
 <h1><span class="section-number">2.3. </span>Code Cells<a class="headerlink" href="#code-cells" title="Link to this heading">#</a></h1>
-<p>You can write your Python code in <strong>code cells</strong> in your Notebook.<br />
-To create a code cell:</p>
+<p>You can write your Python code in <strong>code cells</strong> in your Notebook.</p>
+<p>To create a code cell:</p>
 <ol class="arabic simple">
-<li><p>Choose <strong>Code</strong> from the dropdown menu that contains the type of cells for the Notebook in the notebook toolbar.<br />
-<img alt="" src="_images/code-cell-dd.png" /></p></li>
-<li><p>Click on the <strong>Add Code Cell Below</strong> button<img alt="" src="_images/add-cell.png" /> button on the notebook toolbar in
-PyCharm.</p></li>
-<li><p>A cell will be created. You can now start writing your Python code inside the code cell.</p></li>
-<li><p>As before, to run the code cell, click on the <strong>Run Cell and Select below</strong> <img alt="" src="_images/run-cell.png" /> button in the notebook toolbar to run the code in that cell only, or <strong>Run All</strong> <img alt="" src="_images/run-all.png" /> button to run all the cells of the Notebook.</p></li>
+<li><p>Click on the <strong>+Code</strong> button <a class="reference internal" href="_images/colab-code.png"><img alt="colab-code" src="_images/colab-code.png" style="width: 75px;" /></a> from the top right-hand-side notebook toolbar.</p></li>
+<li><p>A code cell will be created. You can now start writing your Python code inside the code cell.</p></li>
+<li><p>As before, to run the code cell, click on Play icon <a class="reference internal" href="_images/colab-play.png"><img alt="colab-play" src="_images/colab-play.png" style="width: 20px;" /></a> in the left gutter of the cell
+to get the output of the code displayed underneath the code cell.</p></li>
 </ol>
 <p>Below is an example of how a code cell and its output after running the code cell will look in your Notebook.</p>
 <figure class="align-default" id="jupyter-code-cell">
 <img alt="_images/jupyter-code-cell.png" src="_images/jupyter-code-cell.png" />
 <figcaption>
-<p><span class="caption-text">An example of a code cell in Jupyter Notebook and its output.</span><a class="headerlink" href="#jupyter-code-cell" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 2.3 </span><span class="caption-text">An example of a code cell in Jupyter Notebook and its output.</span><a class="headerlink" href="#jupyter-code-cell" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="exercise admonition" id="code-cell1">
 
-<p class="admonition-title"> (Exploring code cells)</p>
+<p class="admonition-title"><span class="caption-number">Exercise 2.3 </span> (Exploring code cells)</p>
 <section id="exercise-content">
 <p><strong>Level:</strong> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-star-fill sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-star sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-star sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg></p>
-<p>Explore writing Python code in code cells.  Write the code shown in <code class="xref std std-numref docutils literal notranslate"><span class="pre">jupyter-code-cell</span></code>, and execute it in a Jupyter Notebook.</p>
+<p>Explore writing Python code in code cells.  Write the code shown in <a class="reference internal" href="#jupyter-code-cell"><span class="std std-numref">Fig. 2.3</span></a>, and execute it in a Jupyter Notebook.</p>
 </section>
 </div>
 </section>
 <section id="sharing">
 <h1><span class="section-number">2.4. </span>Sharing<a class="headerlink" href="#sharing" title="Link to this heading">#</a></h1>
-<p>Once you have finished writing your Notebook, go to the location where you have your PyCharm Project and you should be
-able to see your Notebook file/s (<code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>) in that folder. You can send the .ipynb file to someone or upload it to a
-drive for example. If you have created folders with data in your project that are used in the <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> file, than make
-sure to also send the whole project folder that contains the folder with the data and the <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> file it, so that the functions that
-use that data are not disrupted in your code.<br />
-<strong>Make sure that you have saved your code and have run the Notebook successfully before sending or submitting it!</strong></p>
+<p>On Google Drive, if you go to the location where you have saved your notebook, you should be ble to see your Notebook
+file/s (<code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>) in that folder. You can send the <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> file to someone or share it directly with others via Google Drive
+using the Share button at the top right-hand-side of the Colab document.  You can also get a link from there and use the link
+to share it with your collaborators.</p>
 <div class="exercise admonition" id="explore-notebooks">
 
-<p class="admonition-title"> (Explore how others do Notebooks)</p>
+<p class="admonition-title"><span class="caption-number">Exercise 2.4 </span> (Explore how others do Notebooks)</p>
 <section id="exercise-content">
 <p><strong>Level:</strong> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-star-fill sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-star-fill sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-star sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg></p>
 <p>This <a class="reference external" href="https://github.com/jupyter/jupyter/wiki">link</a> contains different examples of Jupyter Notebooks for you to explore. Look into a few Notebooks and check
-the .ipynb files to see how others are displaying content in Notebooks..</p>
+the .ipynb files to see how others are displaying content in Notebooks.</p>
 </section>
 </div>
 </section>
@@ -484,7 +480,7 @@ the .ipynb files to see how others are displaying content in Notebooks..</p>
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">2.2. </span>Markdown Cells</p>
+        <p class="prev-next-title"><span class="section-number">2.2. </span>Text Cells</p>
       </div>
     </a>
     <a class="right-next"

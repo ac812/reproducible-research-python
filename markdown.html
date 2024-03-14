@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>2.2. Markdown Cells &#8212; Reproducible Research in Python</title>
+    <title>2.2. Text Cells &#8212; Reproducible Research in Python</title>
   
   
   
@@ -181,10 +181,10 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Reproducible Research in Python</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="open-research.html">1. The importance of making research code accessible</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open-research.html">1. Reproducibility Crisis</a></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="jupyter.html">2. Jupyter Notebooks</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="colab.html">2.1. Introducing Colaboratory</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">2.2. Markdown Cells</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">2.2. Text Cells</a></li>
 <li class="toctree-l2"><a class="reference internal" href="code-cells.html">2.3. Code Cells</a></li>
 
 <li class="toctree-l2"><a class="reference internal" href="pycharm.html">2.5. Introducing PyCharm</a></li>
@@ -377,7 +377,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Markdown Cells</h1>
+    <h1>Text Cells</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -391,14 +391,14 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#inline-text-formatting">2.2.2. Inline text formatting</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#line-breaks">2.2.3. Line breaks</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#links">2.2.4. Links</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-text-to-headers">2.2.4.1. Linking text to Headers</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-text-to-a-webpage">2.2.4.2. Linking text to a webpage</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-text-to-headers">Linking text to Headers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-text-to-a-webpage">Linking text to a webpage</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#footnotes">2.2.5. Footnotes</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lists">2.2.6. Lists</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ordered-lists">2.2.6.1. Ordered lists</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#unordered-lists">2.2.6.2. Unordered lists</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ordered-lists">Ordered lists</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#unordered-lists">Unordered lists</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#inserting-images">2.2.7. Inserting images</a></li>
@@ -413,18 +413,19 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="markdown-cells">
-<h1><span class="section-number">2.2. </span>Markdown Cells<a class="headerlink" href="#markdown-cells" title="Link to this heading">#</a></h1>
-<p>Markdown Cells are cells that contain Markdown.  Markdown is a markup language that is used to format text. In this section
-we are going to look at different formatting options to make our text more structured and user-friendly.<br />
-To add a Markdown cell:</p>
+  <section id="text-cells">
+<h1><span class="section-number">2.2. </span>Text Cells<a class="headerlink" href="#text-cells" title="Link to this heading">#</a></h1>
+<p>Text Cells are cells that contain <strong>Markdown</strong>.  Markdown is a markup language that is used to format text. In this section,
+we are going to look at different formatting options to make our text more structured and user-friendly.</p>
+<p>To add a Text cell:</p>
 <ol class="arabic simple">
-<li><p>Choose <code class="docutils literal notranslate"><span class="pre">Markdown</span></code> from the dropdown list in the notebook toolbar.
-<img alt="type-code-cell" src="_images/type-code-cell.png" /></p></li>
-<li><p>Then click on the <strong>Add Cell Below</strong> button <img alt="" src="_images/add-cell.png" />.</p></li>
-<li><p>This will add Markdown cell in your Jupyter Notebook. Click on the cell and start typing your Markdown.</p></li>
-<li><p>Click on the <strong>Run Cell and Select below</strong> <img alt="" src="_images/run-cell.png" /> button in the notebook toolbar to run the code in that cell only, or <strong>Run All</strong> <img alt="" src="_images/run-all.png" /> button to run all the cells of the Notebook.</p></li>
+<li><p>Choose the <code class="docutils literal notranslate"><span class="pre">+Text</span></code> button in the top toolbar <img alt="colab-text" src="_images/colab-text.png" /></p></li>
+<li><p>This will add the text cell in your Jupyter Notebook. Double-click on the cell and start typing your Markdown.  There
+is a display panel on the right-hand-side that shows the output of your Markdown which is very helpful.</p></li>
+<li><p>To stop editing the Text cell, click on the <code class="docutils literal notranslate"><span class="pre">Close</span> <span class="pre">markdown</span> <span class="pre">editor</span></code> button <a class="reference internal" href="_images/colab-close-text-editor.png"><img alt="colab-close-text-editor" src="_images/colab-close-text-editor.png" style="width: 40px;" /></a>
+that is present on the top tight-hand-side of the cell menu.</p></li>
 </ol>
+<p>Let’s start looking at how to use Markdown below.</p>
 <section id="headings">
 <h2><span class="section-number">2.2.1. </span>Headings<a class="headerlink" href="#headings" title="Link to this heading">#</a></h2>
 <p>Below is the Markdown code you need to use to specify headings at different levels and the rendered output respectively below the code:</p>
@@ -451,7 +452,7 @@ To  ~~strikethrough~~ text use <code class="docutils literal notranslate"><span 
 <p>To create a line break, put more than 2 spaces at the end of a sentence.</p>
 <div class="exercise admonition" id="markdown1">
 
-<p class="admonition-title"> (Markdown in Jupyter Notebook)</p>
+<p class="admonition-title"><span class="caption-number">Exercise 2.1 </span> (Markdown in Jupyter Notebook)</p>
 <section id="exercise-content">
 <p><strong>Level:</strong> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-star-fill sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-star-fill sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-star sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg></p>
 <p>Replicate the output of the text below in a new Jupyter Notebook <code class="docutils literal notranslate"><span class="pre">notebook2</span></code>.
@@ -460,31 +461,51 @@ The text comes from <a class="reference external" href="https://www.nature.com/n
 that was published in 2016 in the Nature journal that triggered the discussion about Reproducibility Crisis.</p>
 </section>
 </div>
+<div class="solution dropdown admonition" id="markdown1-solution">
+
+<p class="admonition-title">Solution to<a class="reference internal" href="#markdown1">  ( 2.1</a></p>
+<section id="solution-content">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># 1,500 scientists lift the lid on reproducibility</span>
+
+<span class="c1">## Survey sheds light on the &#39;crisis&#39; rocking research.</span>
+<span class="c1">### by Mona Baker</span>
+
+<span class="o">**</span><span class="n">More</span> <span class="n">than</span> <span class="mi">70</span><span class="o">%</span> <span class="n">of</span> <span class="n">researchers</span> <span class="n">have</span> <span class="n">tried</span> <span class="ow">and</span> <span class="n">failed</span> <span class="n">to</span> <span class="n">reproduce</span> <span class="n">another</span> <span class="n">scientist</span><span class="s1">&#39;s experiments**, and more than half </span>
+<span class="n">have</span> <span class="n">failed</span> <span class="n">to</span> <span class="n">reproduce</span> <span class="n">their</span> <span class="n">own</span> <span class="n">experiments</span><span class="o">.</span> <span class="n">Those</span> <span class="n">are</span> <span class="n">some</span> <span class="n">of</span> <span class="n">the</span> <span class="n">telling</span> <span class="n">figures</span> <span class="n">that</span> <span class="n">emerged</span> <span class="kn">from</span> <span class="o">*</span><span class="n">Nature</span><span class="o">*</span><span class="s1">&#39;s survey </span>
+<span class="n">of</span> <span class="mi">1</span><span class="p">,</span><span class="mi">576</span> <span class="n">researchers</span> <span class="n">who</span> <span class="n">took</span> <span class="n">a</span> <span class="n">brief</span> <span class="n">online</span> <span class="n">questionnaire</span> <span class="n">on</span> <span class="n">reproducibility</span> <span class="ow">in</span> <span class="n">research</span><span class="o">.</span>
+
+<span class="n">The</span> <span class="n">data</span> <span class="n">reveal</span> <span class="n">sometimes</span><span class="o">-</span><span class="n">contradictory</span> <span class="n">attitudes</span> <span class="n">towards</span> <span class="n">reproducibility</span><span class="o">.</span> <span class="n">Although</span> <span class="mi">52</span><span class="o">%</span> <span class="n">of</span> <span class="n">those</span> <span class="n">surveyed</span> <span class="n">agree</span> <span class="n">that</span> 
+<span class="n">there</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">significant</span> <span class="n">crisis</span> <span class="n">of</span> <span class="n">reproducibility</span><span class="p">,</span> <span class="n">less</span> <span class="n">than</span> <span class="mi">31</span><span class="o">%</span> <span class="n">think</span> <span class="n">that</span> <span class="n">failure</span> <span class="n">to</span> <span class="n">reproduce</span> <span class="n">published</span> <span class="n">results</span> <span class="n">means</span> 
+<span class="n">that</span> <span class="n">the</span> <span class="n">result</span> <span class="ow">is</span> <span class="n">probably</span> <span class="n">wrong</span><span class="p">,</span> <span class="ow">and</span> <span class="n">most</span> <span class="n">say</span> <span class="n">that</span> <span class="n">they</span> <span class="n">still</span> <span class="n">trust</span> <span class="n">the</span> <span class="n">published</span> <span class="n">literature</span><span class="o">.</span>
+</pre></div>
+</div>
+</section>
+</div>
 </section>
 <section id="links">
 <h2><span class="section-number">2.2.4. </span>Links<a class="headerlink" href="#links" title="Link to this heading">#</a></h2>
 <section id="linking-text-to-headers">
-<h3><span class="section-number">2.2.4.1. </span>Linking text to Headers<a class="headerlink" href="#linking-text-to-headers" title="Link to this heading">#</a></h3>
-<p>To link text to a header use <code class="docutils literal notranslate"><span class="pre">[link</span> <span class="pre">to</span> <span class="pre">header](#section-title)</span></code>. Inside the parenthesis, titles are written in lower case letters
-and spaces are converted to a hyphen, for example, <code class="docutils literal notranslate"><span class="pre">[link</span> <span class="pre">to</span> <span class="pre">header](#markdown-cells)</span></code> will be rendered as <a class="reference internal" href="#markdown-cells"><span class="xref myst">link to header</span></a>.</p>
+<h3>Linking text to Headers<a class="headerlink" href="#linking-text-to-headers" title="Link to this heading">#</a></h3>
+<p>To link text to a header, use <code class="docutils literal notranslate"><span class="pre">[link</span> <span class="pre">to</span> <span class="pre">header](#section-title)</span></code>. Inside the parenthesis, write the title text in lower-case
+letters and replace spaces with a hyphen, for example, <code class="docutils literal notranslate"><span class="pre">[link</span> <span class="pre">to</span> <span class="pre">header](#text-cells)</span></code> will be rendered as <a class="reference internal" href="#text-cells"><span class="xref myst">link to header</span></a>.</p>
 </section>
 <section id="linking-text-to-a-webpage">
-<h3><span class="section-number">2.2.4.2. </span>Linking text to a webpage<a class="headerlink" href="#linking-text-to-a-webpage" title="Link to this heading">#</a></h3>
+<h3>Linking text to a webpage<a class="headerlink" href="#linking-text-to-a-webpage" title="Link to this heading">#</a></h3>
 <p>To create a link to a webpage use <code class="docutils literal notranslate"><span class="pre">[text</span> <span class="pre">of</span> <span class="pre">link](https://jupyter.org/)</span></code>.  This is rendered as <a class="reference external" href="https://jupyter.org/">text of link</a>.</p>
 </section>
 </section>
 <section id="footnotes">
 <h2><span class="section-number">2.2.5. </span>Footnotes<a class="headerlink" href="#footnotes" title="Link to this heading">#</a></h2>
-<p>To indicate a footnote use<code class="docutils literal notranslate"><span class="pre">[^2]</span></code> and, for example, indicate another one as<code class="docutils literal notranslate"><span class="pre">[^3]</span></code>, then specify the wordings of the footnotes as:</p>
+<p>To indicate a footnote use<code class="docutils literal notranslate"><span class="pre">[^2]</span></code>.  Indicate additional footnotes using other numbers as follows <code class="docutils literal notranslate"><span class="pre">[^3]</span></code>, then specify the wordings of the footnotes as:</p>
 <p><code class="docutils literal notranslate"><span class="pre">[^2]:</span> <span class="pre">This</span> <span class="pre">is</span> <span class="pre">the</span> <span class="pre">first</span> <span class="pre">footnote.</span></code><br />
 <code class="docutils literal notranslate"><span class="pre">[^3]:</span> <span class="pre">This</span> <span class="pre">is</span> <span class="pre">the</span> <span class="pre">second</span> <span class="pre">footnote.</span></code></p>
 <p>You do not need to put footnotes at the end of the document for them to be rendered there.  This example is rendered as follows:</p>
-<p>To indicate a footnote use<a class="footnote-reference brackets" href="#id3" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a> and, for example, indicate another one as<a class="footnote-reference brackets" href="#id4" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a> and then specify the wordings of the footnotes as:</p>
+<p>To indicate a footnote use<a class="footnote-reference brackets" href="#id3" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a>. Indicate additional footnotes using other numbers as follows<a class="footnote-reference brackets" href="#id4" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a>, then specify the wordings of the footnotes as:</p>
 </section>
 <section id="lists">
 <h2><span class="section-number">2.2.6. </span>Lists<a class="headerlink" href="#lists" title="Link to this heading">#</a></h2>
 <section id="ordered-lists">
-<h3><span class="section-number">2.2.6.1. </span>Ordered lists<a class="headerlink" href="#ordered-lists" title="Link to this heading">#</a></h3>
+<h3>Ordered lists<a class="headerlink" href="#ordered-lists" title="Link to this heading">#</a></h3>
 <p>To create an ordered list use the following syntax:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">1.</span> <span class="n">Item</span> <span class="mi">1</span>
 <span class="mf">2.</span> <span class="n">Item</span> <span class="mi">2</span>
@@ -502,8 +523,6 @@ and spaces are converted to a hyphen, for example, <code class="docutils literal
 <span class="mf">2.</span> <span class="n">Item</span> <span class="mi">2</span>
 <span class="mf">3.</span> <span class="n">Item</span> <span class="mi">3</span>  
     <span class="n">a</span><span class="o">.</span> <span class="n">Item</span> <span class="mi">3</span><span class="n">a</span>  
-        <span class="n">i</span><span class="o">.</span>  <span class="n">Item</span> <span class="mi">3</span><span class="n">ai</span>  
-        <span class="n">ii</span><span class="o">.</span> <span class="n">Item</span> <span class="mi">3</span><span class="n">aii</span>  
     <span class="n">b</span><span class="o">.</span> <span class="n">Item</span> <span class="mi">3</span><span class="n">b</span>  
     <span class="n">c</span><span class="o">.</span> <span class="n">Item</span> <span class="mi">3</span><span class="n">c</span>  
 <span class="mf">4.</span> <span class="n">Item</span> <span class="mi">4</span>
@@ -514,21 +533,19 @@ and spaces are converted to a hyphen, for example, <code class="docutils literal
 <li><p>Item 2</p></li>
 <li><p>Item 3<br />
 a. Item 3a<br />
-i.  Item 3ai<br />
-ii. Item 3aii<br />
 b. Item 3b<br />
 c. Item 3c</p></li>
 <li><p>Item 4</p></li>
 </ol>
 </section>
 <section id="unordered-lists">
-<h3><span class="section-number">2.2.6.2. </span>Unordered lists<a class="headerlink" href="#unordered-lists" title="Link to this heading">#</a></h3>
+<h3>Unordered lists<a class="headerlink" href="#unordered-lists" title="Link to this heading">#</a></h3>
 <p>In an unordered bulletted list, each item begins with <code class="docutils literal notranslate"><span class="pre">*</span></code>, <code class="docutils literal notranslate"><span class="pre">+</span></code> or <code class="docutils literal notranslate"><span class="pre">-</span></code>.  Example:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">*</span> <span class="n">Item</span> <span class="mi">1</span>
 <span class="o">*</span> <span class="n">Item</span> <span class="mi">2</span>
 <span class="o">*</span> <span class="n">Item</span> <span class="mi">3</span>
     <span class="o">*</span> <span class="n">Item</span> <span class="mi">3</span><span class="n">a</span>
-        <span class="o">*</span>  <span class="n">Item</span> <span class="mi">3</span><span class="n">ai</span>
+        <span class="o">*</span> <span class="n">Item</span> <span class="mi">3</span><span class="n">ai</span>
         <span class="o">*</span> <span class="n">Item</span> <span class="mi">3</span><span class="n">aii</span>
     <span class="o">*</span> <span class="n">Item</span> <span class="mi">3</span><span class="n">b</span>
     <span class="o">*</span> <span class="n">Item</span> <span class="mi">3</span><span class="n">c</span>
@@ -557,21 +574,23 @@ c. Item 3c</p></li>
 </section>
 <section id="inserting-images">
 <h2><span class="section-number">2.2.7. </span>Inserting images<a class="headerlink" href="#inserting-images" title="Link to this heading">#</a></h2>
-<p>To insert an image use the following syntax: <code class="docutils literal notranslate"><span class="pre">![alternative</span> <span class="pre">text](path_to_image</span> <span class="pre">&quot;Title&quot;)</span></code>.  Example:</p>
+<p>To insert an image use the following syntax: <code class="docutils literal notranslate"><span class="pre">![alternative</span> <span class="pre">text](path_to_image)</span></code>.  Example:</p>
 <p><code class="docutils literal notranslate"><span class="pre">![Jupyter</span> <span class="pre">Logo](images/jupyter.png)</span></code></p>
 <p>Will be rendered as:</p>
 <p><img alt="Jupyter Logo" src="_images/jupyter.png" /></p>
 <div class="exercise admonition" id="markdown2">
 
-<p class="admonition-title"> (More Markdown)</p>
+<p class="admonition-title"><span class="caption-number">Exercise 2.2 </span> (More Markdown)</p>
 <section id="exercise-content">
 <p><strong>Level:</strong> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-star-fill sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-star-fill sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-star sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg></p>
-<p>Continue working on <code class="docutils literal notranslate"><span class="pre">notebook2.ipynb</span></code> from the <code class="xref std std-numref docutils literal notranslate"><span class="pre">markdown1</span></code>. Extend the output of <code class="docutils literal notranslate"><span class="pre">notebook2.ipynb</span></code> to look like
-<span class="xref myst">this</span>.<br />
-You can find the image used in this exercise at this location:
+<p>Continue working on <code class="docutils literal notranslate"><span class="pre">notebook2.ipynb</span></code> from <a class="reference internal" href="#markdown1"><span class="std std-numref">Exercise 2.1</span></a>. Extend the output of <code class="docutils literal notranslate"><span class="pre">notebook2.ipynb</span></code> to look like
+<a class="reference external" href="https://github.com/ac812/reproducible-research-python/blob/main/docs/notebook-solutions/notebook2.ipynb">this</a>.</p>
+<p>You can find the image used in this exercise at this location:
 https://www.nature.com/news/polopoly_fs/7.36716.1469695923!/image/reproducibility-graphic-online1.jpeg_gen/derivatives/landscape_630/reproducibility-graphic-online1.jpeg</p>
 </section>
 </div>
+<p>More information about Markdown is provided <a class="reference external" href="https://colab.research.google.com/notebooks/markdown_guide.ipynb">here</a>.  Let us
+now look at code cells.</p>
 <hr class="footnotes docutils" />
 <aside class="footnote-list brackets">
 <aside class="footnote brackets" id="id3" role="doc-footnote">
@@ -654,14 +673,14 @@ https://www.nature.com/news/polopoly_fs/7.36716.1469695923!/image/reproducibilit
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#inline-text-formatting">2.2.2. Inline text formatting</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#line-breaks">2.2.3. Line breaks</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#links">2.2.4. Links</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-text-to-headers">2.2.4.1. Linking text to Headers</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-text-to-a-webpage">2.2.4.2. Linking text to a webpage</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-text-to-headers">Linking text to Headers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-text-to-a-webpage">Linking text to a webpage</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#footnotes">2.2.5. Footnotes</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lists">2.2.6. Lists</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ordered-lists">2.2.6.1. Ordered lists</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#unordered-lists">2.2.6.2. Unordered lists</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ordered-lists">Ordered lists</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#unordered-lists">Unordered lists</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#inserting-images">2.2.7. Inserting images</a></li>
