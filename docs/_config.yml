@@ -1,9 +1,9 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Reproducibile Research in Python
+title: Reproducible Research in Python
 author: Alexia Cardona
-logo: images/mcb-logo.jpg
+logo: images/UoC-logo.jpg
 
 # See https://jupyterbook.org/content/execute.html
 execute:
@@ -12,17 +12,23 @@ execute:
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
-    targetname: book.tex
+    targetname: reproducible-research-python.tex
 
 # Add a bibtex file so that we can create citations
-#bibtex_bibfiles:
-#  - references.bib
+bibtex_bibfiles:
+  - references.bib
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
+  url: https://github.com/ac812/reproducible-research-python  # Online location of your book
   path_to_book: docs  # Optional path to your book, relative to the repository root
-  branch: master  # Which branch of the repository should be used when creating links (optional)
+  branch: main  # Which branch of the repository should be used when creating links (optional)
+
+parse:
+  myst_enable_extensions:
+    # don't forget to list any other extensions you want enabled,
+    # including those that are enabled by default! See here: https://jupyterbook.org/en/stable/customize/config.html
+    - html_image
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
@@ -30,6 +36,7 @@ html:
   use_issues_button: true
   use_repository_button: true
   use_multitoc_numbering: true
+  home_page_in_navbar: true
 
 #used for exercise section
 sphinx:
@@ -40,10 +47,11 @@ sphinx:
     html_show_copyright: false
     language: en
     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    bibtex_reference_style: author_year
+
+only_build_toc_files: true
 
 #Exclude practical 1 files from build
 #exclude_patterns: [practical1.md, intro-to-python.md, variables.md, data-types.md, calling-functions.md, data-structures.md, more-strings.md, operators.md, flow-control-structures.md, debugging-pycharm.md, solutions-practical1.md, worksheet1.md, solutions-worksheet1.md]
 
-#Exclude practical 2 files from skip_initial_build
-exclude_patterns: [debugging-pycharm.md extra.md docstrings.md, practical4.md, recursion.md, solutions-practical4.md]
 

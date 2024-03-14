@@ -3,5 +3,19 @@
 
 format: jb-book
 root: index
-chapters:
-   - file: jupyter
+parts:
+  - caption: Reproducible Research in Python
+    numbered: 3
+    chapters:
+     - file: open-research
+       title: Reproducibility Crisis
+     - file: jupyter
+       sections:
+            - file: colab
+            - file: markdown
+            - file: code-cells
+            - file: pycharm
+     - file: version-control
+     - file: bibliography
+
+
