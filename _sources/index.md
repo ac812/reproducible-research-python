@@ -36,16 +36,16 @@ of GitHub to help you store, manage, and track changes to your code and develop 
 <b>Level:</b> Intermediate
 ````
 
-### Exercises levels
+## Exercises levels
 
 Exercises in this course are labelled with the level of difficulty of the respective exercise. These levels are designed to provide a gradual progression in difficulty, allowing learners to build on their skills and understanding as they move from one level to the next.
 
 ```{list-table}
 :header-rows: 1
 
-* - Level
+* - Level 
   - Description
-* - {octicon}`star-fill;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning`
+* - {octicon}`star-fill;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning` &nbsp;&nbsp;&nbsp;
   - **Level 1**: Exercises in Level 1 are simple exercises designed to get you familiar with a concept or syntax.
 * - {octicon}`star-fill;1em;sd-text-warning` {octicon}`star-fill;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning`
   - **Level 2**: Exercises in Level 2 build upon the concepts introduced. 
