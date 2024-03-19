@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>2.1. Introducing Colaboratory &#8212; Reproducible Research in Python</title>
+    <title>3.2. What is GitHub? &#8212; Reproducible Research in Python</title>
   
   
   
@@ -60,11 +60,11 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'colab';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'github';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="2.2. Text Cells" href="markdown.html" />
-    <link rel="prev" title="2. Jupyter Notebooks" href="jupyter.html" />
+    <link rel="next" title="3.3. Creating a repository" href="repositories.html" />
+    <link rel="prev" title="3. Version Control Systems" href="version-control.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -182,15 +182,15 @@
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Reproducible Research in Python</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="open-research.html">1. Reproducibility Crisis</a></li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="jupyter.html">2. Jupyter Notebooks</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">2.1. Introducing Colaboratory</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="jupyter.html">2. Jupyter Notebooks</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="colab.html">2.1. Introducing Colaboratory</a></li>
 <li class="toctree-l2"><a class="reference internal" href="markdown.html">2.2. Text Cells</a></li>
 <li class="toctree-l2"><a class="reference internal" href="code-cells.html">2.3. Code Cells</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pycharm.html">2.4. Introducing PyCharm</a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="version-control.html">3. Version Control Systems</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="github.html">3.2. What is GitHub?</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="version-control.html">3. Version Control Systems</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">3.2. What is GitHub?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="repositories.html">3.3. Creating a repository</a></li>
 <li class="toctree-l2"><a class="reference internal" href="issues.html">3.4. Creating issues</a></li>
 <li class="toctree-l2"><a class="reference internal" href="branch.html">3.5. Creating a branch</a></li>
@@ -270,7 +270,7 @@
       
       
       
-      <li><a href="https://github.com/ac812/reproducible-research-python/issues/new?title=Issue%20on%20page%20%2Fcolab.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/ac812/reproducible-research-python/issues/new?title=Issue%20on%20page%20%2Fgithub.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -300,7 +300,7 @@
       
       
       
-      <li><a href="_sources/colab.md" target="_blank"
+      <li><a href="_sources/github.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -371,9 +371,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -384,21 +382,11 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Introducing Colaboratory</h1>
+    <h1>What is GitHub?</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-jupyter-notebooks-in-colab">2.1.1. Creating Jupyter Notebooks in Colab</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebook-cells">2.1.2. Jupyter Notebook Cells</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-jupyter-notebooks">2.1.3. Running Jupyter Notebooks</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -408,67 +396,35 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="introducing-colaboratory">
-<h1><span class="section-number">2.1. </span>Introducing Colaboratory<a class="headerlink" href="#introducing-colaboratory" title="Link to this heading">#</a></h1>
-<p><strong>Colaboratory</strong> or <strong>Colab</strong> is a free cloud-based platform provided by Google that allows user to write and execute
-Python
-code
-in a browser environment. The main advantages of Colab are:</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="what-is-github">
+<h1><span class="section-number">3.2. </span>What is GitHub?<a class="headerlink" href="#what-is-github" title="Link to this heading">#</a></h1>
+<p>GitHub is a cloud-based platform driven by the open-source community that hosts a vast amount of repositories and files.
+It uses the Git open-source version control system; the tool needed to keep track of your files’/repositories’ history.
+GitHub essentially makes it easier to use the Git version control system as it provides a user-friendly interface to
+make the required operations to host and version your source code. Without GitHub, using Git normally requires knowledge
+in command line which can be challenging for users that do not have a technical background. Once your files are on
+GitHub, you would be able to share the link to your repositories with your colleagues and allow collaborative
+development of your source code.</p>
+<p>So let’s get started using GitHub!</p>
+<div class="exercise admonition" id="exercise-github">
+
+<p class="admonition-title"> (Exploring GitHub)</p>
+<section id="exercise-content">
+<p><strong>Level:</strong> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-star-fill sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-star sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-star sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg></p>
+<p>If you have not done so already, create a GitHub account by following instructions on <a class="reference external" href="https://github.com">github.com</a>.
+If you already have a GitHub account, please log in now.</p>
+<p>Identify a few GitHub organisations by writing a name of an organisation. Once you enter the organisation page, explore
+the different repositories and identify the different components present on the webpage of the organisation and
+repositories.</p>
+<p>If you do not have any organisation in mind, have a look at the GitHub organisations below:</p>
 <ul class="simple">
-<li><p><strong>Free cloud-based computing</strong>:  Colab allows you to run a Python Jupyter Notebook directly in your browser, without
-the need for any setup or installation!  The code runs on Google’s powerful cloud infrastructure.</p></li>
-<li><p><strong>Collaboration</strong>: Similarly to Google Docs, multiple users are able to work simultaneously on the same notebook,
-enabling real-time collaboration.</p></li>
-<li><p><strong>Pre-installed libraries</strong>:  Colab comes with many popular Python libraries pre-installed, including NumPy, Pandas,
-Matplotlib, among others. This allows users to get started more quickly, eliminating the need to spend time installing
-these libraries.</p></li>
-<li><p><strong>Integration with Google Drive and GitHub</strong>: Colab creates notebooks on Google Drive allowing users to store these
-files in their respective folders on Google Drive. It also supports integration with GitHub, enabling version control
-and easy sharing of notebooks with the broader community. We will look at how to do this later on in the course.</p></li>
+<li><p><a class="reference external" href="https://github.com/LibraryCarpentry">Library Carpentry Lessons</a></p></li>
+<li><p><a class="reference external" href="https://github.com/datacarpentry">Data Carpentry Lessons</a></p></li>
+<li><p><a class="reference external" href="https://github.com/hadley">Hadley Wickham</a></p></li>
+<li><p><a class="reference external" href="https://github.com/ac812/reproducible-research-python">This course notes</a></p></li>
 </ul>
-<p>In this course, we are going to use Colab to create Jupyter Notebooks. There are several other tools that one can use to
-create Jupyter Notebooks and we will be looking at creating Jupyter Notebooks in PyCharm, for those who prefer to use an
-Integrated Development Environment (IDE) to code.</p>
-<section id="creating-jupyter-notebooks-in-colab">
-<h2><span class="section-number">2.1.1. </span>Creating Jupyter Notebooks in Colab<a class="headerlink" href="#creating-jupyter-notebooks-in-colab" title="Link to this heading">#</a></h2>
-<p>To create a Jupyter Notebook in Colab:</p>
-<ol class="arabic simple">
-<li><p>Log in to your Google account.</p></li>
-<li><p>Select or create the folder where you want to create your Colab document.</p></li>
-<li><p>Select <strong>New|More</strong> and choose <strong>Colab</strong>. If <strong>Colab</strong> is not on your list, this means that the Colab app is not
-installed in your Google account. To install Colab, select <strong>New|More|Connect more apps</strong>. In the Google Marketplace
-window, search for <strong>Colab</strong>, select the Colaboratory app as shown below, and follow the installation instructions.
-<img alt="colab-app" src="_images/colab-app.png" /></p></li>
-<li><p>Once installed, to create a new Colab document, in your Google Drive select <strong>New|More|Google Colaboratory</strong>. This
-creates a new Colab document as shown below:
-<img alt="new-colab" src="_images/new-colab.png" /></p></li>
-<li><p>The Colab document is automatically renamed as <code class="docutils literal notranslate"><span class="pre">Untitled</span></code>. Note also that it has the <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> extension.  <strong>Jupyter
-Notebook files have a <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> file extension.</strong>  To rename the document, click on the file name at the top-left hand
-side on the document and rename it to <code class="docutils literal notranslate"><span class="pre">notebook1.ipynb</span></code>. <img alt="colab-rename" src="_images/colab-rename.png" /></p></li>
-</ol>
-<p>Well done, you have just created your first Jupyter Notebook!  The Notebook is currently empty, so let’s get started
-with filling this up.</p>
 </section>
-<section id="jupyter-notebook-cells">
-<h2><span class="section-number">2.1.2. </span>Jupyter Notebook Cells<a class="headerlink" href="#jupyter-notebook-cells" title="Link to this heading">#</a></h2>
-<p>A Jupyter notebook is composed of a list of cells. You can add as many cells as you need in your Notebook. In Colab,
-cells can be of two types:</p>
-<ol class="arabic simple">
-<li><p>Code</p></li>
-<li><p>Text</p></li>
-</ol>
-</section>
-<section id="running-jupyter-notebooks">
-<h2><span class="section-number">2.1.3. </span>Running Jupyter Notebooks<a class="headerlink" href="#running-jupyter-notebooks" title="Link to this heading">#</a></h2>
-<p>When creating a new Colab document, the notebook is initialised with an empty code cell.</p>
-<ol class="arabic">
-<li><p>In the code cell displayed, enter the following <code class="docutils literal notranslate"><span class="pre">print(&quot;Hello</span> <span class="pre">Jupyter!&quot;)</span></code></p></li>
-<li><p>Click on the Play icon <img src="images/colab-play.png" alt="colab-play" width="20"> in the left gutter of the cell
-to get the output of the code displayed underneath the code cell. The output should be as follows:</p>
-<img src="images/colab-hello-jupyter.png" alt="colab-hello-jupyter" width="40%">
-</li>
-</ol>
-</section>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -502,20 +458,20 @@ to get the output of the code displayed underneath the code cell. The output sho
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="jupyter.html"
+       href="version-control.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">2. </span>Jupyter Notebooks</p>
+        <p class="prev-next-title"><span class="section-number">3. </span>Version Control Systems</p>
       </div>
     </a>
     <a class="right-next"
-       href="markdown.html"
+       href="repositories.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">2.2. </span>Text Cells</p>
+        <p class="prev-next-title"><span class="section-number">3.3. </span>Creating a repository</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -526,22 +482,7 @@ to get the output of the code displayed underneath the code cell. The output sho
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-jupyter-notebooks-in-colab">2.1.1. Creating Jupyter Notebooks in Colab</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebook-cells">2.1.2. Jupyter Notebook Cells</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-jupyter-notebooks">2.1.3. Running Jupyter Notebooks</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
+                <div class="bd-sidebar-secondary bd-toc"></div>
               
             
           </div>
