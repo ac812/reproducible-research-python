@@ -1,4 +1,4 @@
-### Code Cells
+# Code Cells
 You can write your Python code in **code cells** in your Notebook.   
 
 To create a code cell:  
@@ -21,8 +21,19 @@ An example of a code cell in Jupyter Notebook and its output.
 **Level:** {octicon}`star-fill;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning`
 
 Explore writing Python code in code cells.  Write the code shown in {numref}`jupyter-code-cell`, and execute it in a Jupyter Notebook.
+Name this file as `notebook3.ipynb`
 
 ```{exercise-end}
+```
+
+```{solution-start} code-cell1
+:label: code-cell1-solution
+:class: dropdown
+```
+
+[Link to Colab document](https://colab.research.google.com/drive/17Sot8IV1DZRABzwqRUa_q-thKW59ePOi?usp=sharing).
+
+```{solution-end} 
 ```
 
 

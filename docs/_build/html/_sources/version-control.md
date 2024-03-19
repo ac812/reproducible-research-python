@@ -2,13 +2,19 @@
 
 ## Introduction to Version Control Systems
 
-Chances are that you have encountered been using a form of version control system before without realising. Consider 
-the scenario below in @fig-student-supervisor, where a PhD student sends their final manuscript draft to their supervisor. 
+Chances are that you have been using a form of version control system before without realising. Consider 
+the scenario below in {numref}`phdcomic`, where a PhD student sends their final manuscript draft to their supervisor. 
 The supervisor sends back the document with comments and feedback to the student, renaming the document with a new 
 version name. Before you know it, this iterative exchange has resulted into 22 versions of the file. Renaming and 
 tracking the progression of the manuscript exemplifies a basic version control method.
 
-![Different versions of document from a PhD student and a supervisor](images/phdcomic.png){#fig-student-supervisor width="60%"}
+```{figure} images/phdcomic.png
+---
+name: phdcomic
+scale: 60%
+---
+Different versions of document from a PhD student and a supervisor.
+```
 
 A version control system, in essence, is a tool that keeps track of the changes and versions of a file. This facilitates 
 collaboration amongst multiple individuals working on the same project concurrently. Version control systems allows 
@@ -55,7 +61,15 @@ editing access to other users. Examples of centralised version control systems a
 of these systems are that if the server goes down, none of the users will be able to collaborate or get the latest versions 
 of the files from the repository.
 
-![Centralised Version Control System. Image by [Michael Ernst.](https://homes.cs.washington.edu/~mernst/advice/version-control.html)](images/centralised-vcs.png){#fig-cvs width="60%"}
+
+```{figure} images/centralised-vcs.png
+---
+name: centralised-vcs
+scale: 60%
+---
+Centralised Version Control System. Image by [Michael Ernst.](https://homes.cs.washington.edu/~mernst/advice/version-control.html)](images/centralised-vcs.png)
+```
+
 
 ### Distributed Version Control Systems
 
@@ -66,4 +80,12 @@ in the team. Distributed version control systems are becoming increasingly more 
 imposed by centralised version control systems. In this course we will be learning about **git** which is an example of 
 a distributed version control system.
 
-![Distributed Version Control System. Image by [Michael Ernst.](https://homes.cs.washington.edu/~mernst/advice/version-control.html)](images/distributed-vcs.png){#fig-cvs width="60%"}
+
+```{figure} images/distributed-vcs.png
+---
+name: distributed-vcs
+scale: 60%
+---
+Distributed Version Control System. Image by [Michael Ernst.](https://homes.cs.washington.edu/~mernst/advice/version-control.html)](images/centralised-vcs.png)
+```
+
