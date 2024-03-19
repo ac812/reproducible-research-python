@@ -1,6 +1,6 @@
 # Version Control Systems
 
-## Introduction to Version Control Systems
+## Introduction to version control systems
 
 Chances are that you have been using a form of version control system before without realising. Consider 
 the scenario below in {numref}`phdcomic`, where a PhD student sends their final manuscript draft to their supervisor. 

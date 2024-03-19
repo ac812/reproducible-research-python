@@ -24,18 +24,18 @@ repository:
   path_to_book: docs  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
-parse:
+#parse:
   myst_enable_extensions:
     # don't forget to list any other extensions you want enabled,
     # including those that are enabled by default! See here: https://jupyterbook.org/en/stable/customize/config.html
     - html_image
+
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   use_issues_button: true
   use_repository_button: true
-  use_multitoc_numbering: true
   home_page_in_navbar: true
 
 #used for exercise section

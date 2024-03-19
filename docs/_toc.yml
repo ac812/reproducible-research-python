@@ -16,6 +16,13 @@ parts:
             - file: code-cells
             - file: pycharm
      - file: version-control
+       sections:
+            - file: github
+            - file: repositories
+            - file: issues
+            - file: branch
+            - file: github-flow
+            - file: working-collaboratively
      - file: bibliography
 
 
