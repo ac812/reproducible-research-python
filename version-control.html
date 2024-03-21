@@ -28,14 +28,14 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b76e3c8a" />
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=949a1ff5" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/exercise.css?v=20b57f81" />
-    <link rel="stylesheet" type="text/css" href="_static/proof.css?v=b4b7a797" />
+    <link rel="stylesheet" type="text/css" href="_static/proof.css?v=ca93fcec" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css?v=265df370" />
   
@@ -48,7 +48,7 @@
     <script src="_static/doctools.js?v=888ff710"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="_static/copybutton.js?v=ff8fa330"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
     <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
@@ -196,6 +196,7 @@
 <li class="toctree-l2"><a class="reference internal" href="branch.html">3.5. Creating a branch</a></li>
 <li class="toctree-l2"><a class="reference internal" href="github-flow.html">3.6. The GitHub flow</a></li>
 <li class="toctree-l2"><a class="reference internal" href="working-collaboratively.html">3.7. Working collaboratively</a></li>
+<li class="toctree-l2"><a class="reference internal" href="colab-github.html">3.8. Colab/Pycharm to GitHub</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="bibliography.html">4. References</a></li>
@@ -444,9 +445,9 @@ enabling reproducibility of their work.</p>
 <p class="admonition-title">New keyword: repository</p>
 <p>In version control systems, a <strong>repository</strong> is a data structure that stores files and directory structure in it, as well as
 the history of changes made to those files. This is similar to folders on your computer.</p>
-</div>
 <div class="container"> 
   <iframe class="responsive-iframe" src="https://docs.google.com/presentation/d/1jjthPL_vuhgmm8R1QcmZXrpsA2OjbmAFhaMqjLxJ8qc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
 </div>
 <p>Version control systems are often categorised as either centralised version control systems or distributed version control systems.</p>
 <section id="centralised-version-control-systems">
@@ -461,7 +462,7 @@ of the files from the repository.</p>
 <figure class="align-default" id="centralised-vcs">
 <a class="reference internal image-reference" href="_images/centralised-vcs.png"><img alt="_images/centralised-vcs.png" src="_images/centralised-vcs.png" style="width: 312.0px; height: 222.0px;" /></a>
 <figcaption>
-<p><span class="caption-text">Centralised Version Control System. Image by <a class="reference external" href="https://homes.cs.washington.edu/~mernst/advice/version-control.html">Michael Ernst.</a>](images/centralised-vcs.png)</span><a class="headerlink" href="#centralised-vcs" title="Link to this image">#</a></p>
+<p><span class="caption-text">Centralised Version Control System. Image by <a class="reference external" href="https://homes.cs.washington.edu/~mernst/advice/version-control.html">Michael Ernst.</a></span><a class="headerlink" href="#centralised-vcs" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -476,7 +477,7 @@ a distributed version control system.</p>
 <figure class="align-default" id="distributed-vcs">
 <a class="reference internal image-reference" href="_images/distributed-vcs.png"><img alt="_images/distributed-vcs.png" src="_images/distributed-vcs.png" style="width: 354.59999999999997px; height: 273.0px;" /></a>
 <figcaption>
-<p><span class="caption-text">Distributed Version Control System. Image by <a class="reference external" href="https://homes.cs.washington.edu/~mernst/advice/version-control.html">Michael Ernst.</a>](images/centralised-vcs.png)</span><a class="headerlink" href="#distributed-vcs" title="Link to this image">#</a></p>
+<p><span class="caption-text">Distributed Version Control System. Image by <a class="reference external" href="https://homes.cs.washington.edu/~mernst/advice/version-control.html">Michael Ernst.</a></span><a class="headerlink" href="#distributed-vcs" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -575,6 +576,13 @@ By Alexia Cardona
   
   <div class="footer-item">
     
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
 
   </div>
   

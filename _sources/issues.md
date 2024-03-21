@@ -18,7 +18,7 @@ keep track of bugs, in other words, it can be viewed as a task list for the proj
 when working collaboratively. They are very simple to use and are often ways to have a discussion between collaborators
 on a particular issue.
 
-```{exercise-start} Creating an issue
+```{exercise-start} Exercise 3.4: Creating an issue
 :label: exercise-issue
 ```
 **Level:** {octicon}`star-fill;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning`

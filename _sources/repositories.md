@@ -3,7 +3,7 @@
 Let's get started by creating a repository in our own GitHub organisation.
 
 
-```{exercise-start} Creating a repository on GitHub
+```{exercise-start} Exercise 3.3: Creating a repository on GitHub
 :label: exercise-repo
 ```
 **Level:** {octicon}`star-fill;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning`

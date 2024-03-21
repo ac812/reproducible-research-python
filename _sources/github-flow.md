@@ -61,12 +61,12 @@ GitHub flow. Please note that `master` in the image is now referred to as `main`
 ```
 
 
-```{exercise-start} GitHub flow in action
+```{exercise-start} Exercise 3.6: GitHub flow in action
 :label: exercise-github-flow
 ```
 **Level:** {octicon}`star-fill;1em;sd-text-warning` {octicon}`star-fill;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning`
 
-In this exercise we will be going over the GitHub flow in action. We will fix the issue that we have opened in {numref}`exercise-issue`. 
+In this exercise we will be going over the GitHub flow in action. We will fix the issue that we have opened in [the issue exercise](exercise-issue)
 We will do this by creating a feature branch that will hold the changes related to fixing this issue. A pull
 request will be then sent to inform which changes in the feature branch are ready. These changes are then merged into
 the `main` branch.

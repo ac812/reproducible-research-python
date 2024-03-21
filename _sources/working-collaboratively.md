@@ -6,7 +6,7 @@ repositories. You will not be able to make changes directly on someone else's re
 in that repository. You will then need to follow the GitHub flow process. The example below, provides you with a
 step-by-step example of how two people worked together collaboratively on GitHub.
 
-```{exercise-start} Working collaboratively in GitHub
+```{exercise-start} Exercise 3.7: Working collaboratively in GitHub
 :label: exercise-collaborate
 ```
 **Level:** {octicon}`star-fill;1em;sd-text-warning` {octicon}`star-fill;1em;sd-text-warning` {octicon}`star-fill;1em;sd-text-warning`
@@ -24,7 +24,7 @@ instructions one step at a time. Click on the three vertical dots to enter in fu
 </div>
 
 
-Referring again to the GitHub flow diagram {numref}`fig-github-flow`, reflect how the steps you have made together map to
+Referring again to the [GitHub flow diagram](fig-github-flow), reflect how the steps you have made together map to
 the different steps of the GitHub flow process. The GitHub flow is the process used as a good practice when working
 collaboratively. It might feel a bit complex if this is your first time doing this, but the more you practice the more
 it will get easier.

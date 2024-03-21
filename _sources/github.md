@@ -10,7 +10,7 @@ development of your source code.
 
 So let's get started using GitHub!
 
-```{exercise-start} Exploring GitHub
+```{exercise-start} Exercise 3.2: Exploring GitHub
 :label: exercise-github
 ```
 **Level:** {octicon}`star-fill;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning`
