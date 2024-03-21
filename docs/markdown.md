@@ -19,7 +19,7 @@ To add a Text cell:
 1.  Choose the `+Text` button in the top toolbar ![colab-text](images/colab-text.png)
 2.  This will add the text cell in your Jupyter Notebook. Double-click on the cell and start typing your Markdown.  There 
     is a display panel on the right-hand-side that shows the output of your Markdown which is very helpful.
-3.  To stop editing the Text cell, click on the `Close markdown editor` button <img src="images/colab-close-text-editor.png" alt="colab-close-text-editor" width="40px"> 
+3.  To stop editing the Text cell, click on the `Close markdown editor` button ![colab-close-text-editor](images/colab-close-text-editor.png) 
     that is present on the top tight-hand-side of the cell menu.
 
 Let's start looking at how to use Markdown below.  

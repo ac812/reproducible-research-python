@@ -41,11 +41,10 @@ The main advantages of version control systems are:
 In version control systems, a **repository** is a data structure that stores files and directory structure in it, as well as 
 the history of changes made to those files. This is similar to folders on your computer.
 
-````
-
 <div class="container"> 
   <iframe class="responsive-iframe" src="https://docs.google.com/presentation/d/1jjthPL_vuhgmm8R1QcmZXrpsA2OjbmAFhaMqjLxJ8qc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
+````
 
 
 
@@ -67,7 +66,7 @@ of the files from the repository.
 name: centralised-vcs
 scale: 60%
 ---
-Centralised Version Control System. Image by [Michael Ernst.](https://homes.cs.washington.edu/~mernst/advice/version-control.html)](images/centralised-vcs.png)
+Centralised Version Control System. Image by [Michael Ernst.](https://homes.cs.washington.edu/~mernst/advice/version-control.html)
 ```
 
 
@@ -86,6 +85,6 @@ a distributed version control system.
 name: distributed-vcs
 scale: 60%
 ---
-Distributed Version Control System. Image by [Michael Ernst.](https://homes.cs.washington.edu/~mernst/advice/version-control.html)](images/centralised-vcs.png)
+Distributed Version Control System. Image by [Michael Ernst.](https://homes.cs.washington.edu/~mernst/advice/version-control.html)
 ```
 

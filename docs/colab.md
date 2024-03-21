@@ -1,3 +1,15 @@
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
 # Introducing Colaboratory
 
 **Colaboratory** or **Colab** is a free cloud-based platform provided by Google that allows user to write and execute
@@ -53,10 +65,16 @@ cells can be of two types:
 When creating a new Colab document, the notebook is initialised with an empty code cell.
 
 1. In the code cell displayed, enter the following `print("Hello Jupyter!")`
-2. Click on the Play icon <img src="images/colab-play.png" alt="colab-play" width="20"> in the left gutter of the cell 
+2. Click on the Play icon ![colab-play](images/colab-play.png) in the left gutter of the cell 
 to get the output of the code displayed underneath the code cell. The output should be as follows: 
 
-   <img src="images/colab-hello-jupyter.png" alt="colab-hello-jupyter" width="40%">
+```{figure} images/colab-hello-jupyter.png
+---
+name: colab-hello-jupyter
+scale: 40%
+---
+```
+
 
 
 

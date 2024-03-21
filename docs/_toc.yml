@@ -5,7 +5,7 @@ format: jb-book
 root: index
 parts:
   - caption: Reproducible Research in Python
-    numbered: 3
+    numbered: true
     chapters:
      - file: open-research
        title: Reproducibility Crisis
@@ -23,6 +23,7 @@ parts:
             - file: branch
             - file: github-flow
             - file: working-collaboratively
+            - file: colab-github
      - file: bibliography
 
 

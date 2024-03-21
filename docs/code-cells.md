@@ -2,9 +2,9 @@
 You can write your Python code in **code cells** in your Notebook.   
 
 To create a code cell:  
-1. Click on the **+Code** button <img src="images/colab-code.png" alt="colab-code" width="75"> from the top right-hand-side notebook toolbar. 
+1. Click on the **+Code** button ![colab-code](images/colab-code.png) from the top right-hand-side notebook toolbar. 
 2. A code cell will be created. You can now start writing your Python code inside the code cell.
-4. As before, to run the code cell, click on Play icon <img src="images/colab-play.png" alt="colab-play" width="20"> in the left gutter of the cell 
+4. As before, to run the code cell, click on Play icon ![colab-play](images/colab-play.png) in the left gutter of the cell 
 to get the output of the code displayed underneath the code cell.
 
 Below is an example of how a code cell and its output after running the code cell will look in your Notebook.  
